@@ -1,0 +1,4 @@
+model,feat,data,cv_macro_f1,test_accuracy,test_macro_f1,params
+knn,hsv_masked,seg,0.29319551489936607,0.3522588522588523,0.30201015666261055,"{""clf__n_neighbors"": 5, ""clf__weights"": ""distance"", ""pca__n_components"": 50}"
+nb,hsv_masked,seg,0.15357689882991948,0.2026862026862027,0.16714889563725147,"{""clf__var_smoothing"": 1e-09, ""pca__n_components"": 100}"
+dt,hsv_masked,seg,0.19479253628066226,0.23565323565323565,0.19184654823431455,"{""clf__max_depth"": null, ""clf__min_samples_leaf"": 5, ""pca__n_components"": 50}"

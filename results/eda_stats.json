@@ -1,0 +1,22 @@
+{
+  "n_images": 8189,
+  "n_classes": 102,
+  "min_per_class": 40,
+  "max_per_class": 258,
+  "mean_per_class": 80.2843137254902,
+  "median_per_class": 66.0,
+  "class_min": 1,
+  "class_max": 51,
+  "imbalance_ratio_max_min": 6.45,
+  "width_min": 500,
+  "width_max": 1024,
+  "width_mean": 630.160581267554,
+  "height_min": 500,
+  "height_max": 1168,
+  "height_mean": 534.3520576382953,
+  "aspect_mean": 1.2103914148409636,
+  "n_distinct_sizes": 856,
+  "n_corrupt": 0,
+  "n_duplicate_groups": 4,
+  "n_duplicate_groups_cross_split": 0
+}

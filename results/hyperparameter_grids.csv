@@ -1,0 +1,5 @@
+model,luoi_tim_kiem,pipeline,tieu_chi_chon
+knn,"{""pca__n_components"": [50, 100], ""clf__n_neighbors"": [1, 3, 5, 7, 11], ""clf__weights"": [""uniform"", ""distance""]}",StandardScaler → PCA → KNN,"macro-F1, StratifiedKFold(5, shuffle=True, random_state=42)"
+nb,"{""pca__n_components"": [30, 50, 100], ""clf__var_smoothing"": [1e-09, 1e-07, 1e-05]}",StandardScaler → PCA → GaussianNB,"macro-F1, StratifiedKFold(5, shuffle=True, random_state=42)"
+dt,"{""pca__n_components"": [50, 100], ""clf__max_depth"": [10, 20, null], ""clf__min_samples_leaf"": [1, 5]}",StandardScaler → PCA → DecisionTree(random_state=42),"macro-F1, StratifiedKFold(5, shuffle=True, random_state=42)"
+knn_block_weighted (HSV+HOG),"{""bw__w"": [1, 2, 3.7, 6, 10], ""pca__n_components"": [50, 100], ""clf__n_neighbors"": [3, 5, 7]}",StandardScaler → BlockWeight → PCA → KNN(weights=distance),"macro-F1, StratifiedKFold(5, shuffle=True, random_state=42)"

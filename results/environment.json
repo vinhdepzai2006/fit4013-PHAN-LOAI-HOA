@@ -1,0 +1,11 @@
+{
+  "python": "3.13.18",
+  "numpy": "2.4.6",
+  "scikit-learn": "1.6.1",
+  "scikit-image": "0.25.2",
+  "seed": 42,
+  "img_size": 64,
+  "cv_folds": 5,
+  "train_size": 6551,
+  "test_size": 1638
+}
