@@ -6,8 +6,8 @@ Bài tập lớn học phần Nhập môn Học máy (FIT4013), năm học 2026-
 
 | STT | Họ và tên | Lớp | Mã sinh viên |
 |:---:|:---|:---:|:---:|
-| 1 | Lưu Quang Trường | CNTT 18-02 | 1871020662 |
-| 2 | Phan Văn Thành Vinh | CNTT 18-02 | 1871020207 |
+| 1 | Nguyễn Qaung Vịnh | CNTT 18-02 | 1871020662 |
+| 2 | Nguyễn Xuân Hải| CNTT 18-02 | 1871020207 |
 
 `random_state = 42`.
 
