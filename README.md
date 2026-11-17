@@ -1,4 +1,4 @@
-# FIT4013 - Nhóm 8 - Đề tài: Phân loại ảnh hoa
+# FIT4013 - Nhóm 1 - Đề tài: Phân loại ảnh hoa
 
 Bài tập lớn học phần Nhập môn Học máy (FIT4013), năm học 2026-2027. Nhóm 2 người.
 
